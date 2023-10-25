@@ -32,7 +32,11 @@ const OrderDetails = () => {
       <Item>
         <ItemHeader>Category</ItemHeader>
         <div>
-          <img src={category} style={{ height: "50px", width: "200px" }} />
+          <img
+            src={category}
+            style={{ height: "50px", width: "200px" }}
+            alt="category"
+          />
         </div>
       </Item>
       <Separator></Separator>
